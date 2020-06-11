@@ -18,6 +18,7 @@ rootProject.allprojects {
         google()
         jcenter()
         maven { url "https://www.jitpack.io" }
+        maven { url "https://github.com/alexei-g-aloteq/uCrop/develop" }
     }
 }
 
@@ -34,6 +35,6 @@ android {
         disable 'InvalidPackage'
     }
     dependencies {
-        implementation 'com.github.yalantis:ucrop:2.2.5'
+        implementation 'com.github.alexei-g-aloteq:uCrop:2.2.5'
     }
 }
