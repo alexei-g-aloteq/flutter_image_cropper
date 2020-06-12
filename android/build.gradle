@@ -34,7 +34,7 @@ android {
         disable 'InvalidPackage'
     }
     dependencies {
-        implementation 'com.github.alexei-g-aloteq:uCrop:aloteq'
+        implementation 'com.github.alexei-g-aloteq:uCrop:aloteq1'
     }
 
 }
